@@ -61,7 +61,7 @@ button0 = ct.CTkButton(master=output, text='0', command=lambda: output.insert('e
                        height=55, font=('arial', 30))
 button0.grid(row=4, column=0, padx=5, pady=5)
 
-# Creating operation buttons
+
 button_clear = ct.CTkButton(master=output, text='C', command=lambda: output.delete('0.0', 'end'), corner_radius=20,
                             width=80, height=55, font=('arial', 30))
 button_clear.grid(row=4, column=1, padx=5, pady=5)
